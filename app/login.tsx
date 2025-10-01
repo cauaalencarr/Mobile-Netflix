@@ -52,6 +52,8 @@ export default function LoginScreen() {
 
       <Text style={styles.link}>Need help?</Text>
       <Text style={styles.link}>New to Netflix? Sign up now.</Text>
+      <Text style={styles.link}>Sing in is protected by Google reCAPTCHA to ensure  you're not a bot.</Text>
+      <Text style={styles.link}>Learn more.</Text>
     </View>
   );
 }
