@@ -52,8 +52,8 @@ export default function LoginScreen() {
 
       <Text style={styles.link}>Need help?</Text>
       <Text style={styles.link}>New to Netflix? Sign up now.</Text>
-      <Text style={styles.link}>Sing in is protected by Google reCAPTCHA to ensure  you're not a bot.</Text>
-      <Text style={styles.link}>Learn more.</Text>
+      <Text style={styles.desc}>Sing in is protected by Google reCAPTCHA to ensure  you're not a bot.</Text>
+      <Text style={styles.desc2}>Learn more.</Text>
     </View>
   );
 }
@@ -135,8 +135,19 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
   },
   link: {
-    color: "#aaa",
-    marginTop: 16,
+    color: "#ffffffff",
+    marginTop: 15,
     textAlign: "center",
+    fontWeight: "bold",
   },
+  desc: {
+    color: "#bebfc2",
+    marginTop: 16,
+    textAlign: "center"
+  },
+  desc2: {
+    color: "#bebfc2",
+    marginTop: 1,
+    textAlign: "center"
+  }
 });
