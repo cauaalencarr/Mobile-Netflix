@@ -93,8 +93,8 @@ export default function HomeScreen() {
 
             <View style={styles.heroContent}>
               <Text style={styles.heroDescription}>
-                Dramatic Comedy • Charming
-              </Text>
+                Charming  Feel-Good  Dramedy  Movie
+              </Text> 
               <View style={styles.heroButtons}>
                 <TouchableOpacity style={styles.myListButton}>
                   <Text style={styles.myListIcon}>+</Text>
@@ -179,7 +179,12 @@ const styles = StyleSheet.create({
   navLinksContainer: {
     flexDirection: "row",
     justifyContent: "space-around",
-    paddingVertical: 15,
+    gap: 1,
+    paddingVertical: 10,
+    marginTop: -310,
+    marginBottom: 20,
+    width: "100%",
+    alignSelf: "center",
   },
   navLinkText: {
     color: "#fff",
