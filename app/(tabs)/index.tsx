@@ -183,7 +183,7 @@ const styles = StyleSheet.create({
     paddingVertical: 10,
     marginTop: -310,
     marginBottom: 20,
-    width: "100%",
+    width: "90%",
     alignSelf: "center",
   },
   navLinkText: {
